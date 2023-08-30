@@ -1,0 +1,176 @@
+@media screen and (min-width: 2048px) {
+    .nav-bar li a {
+        font-size: 1.75rem;
+    }
+
+    #contact-us {
+        font-size: 1.95rem;
+    }
+
+    .features-text li b {
+        font-size: 2rem;
+    }
+
+    .features-text li p {
+        font-size: 1.5rem;
+    }
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 5rem 1rem;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 2880px) {
+    .nav-bar li a {
+        font-size: 2.75rem;
+    }
+
+    #contact-us {
+        font-size: 2.85rem;
+    }
+
+    .f2-text ul li{
+        width: 85%; 
+    }
+
+    .features-text li b {
+        font-size: 2.75rem;
+    }
+
+    .features-text li p {
+        font-size: 2rem;
+    }
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 7rem 1rem;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 960px) {
+    .left {
+        display: flex;
+        justify-content: center;
+        position: static;
+        width: 100%;
+    }
+
+    .right {
+        /* border: 1px solid black; */
+        float: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-bar li a {
+        display: flex;
+        justify-content: center;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.2rem;
+    }
+
+    #banner-img {
+        position: absolute;
+        float: right;
+        bottom: 0px;
+        width: 60%;
+    }
+
+    .mid-text {
+        position: relative;
+        margin-top: 3rem;
+        width: 80%;
+    }
+
+    #p1 {
+        font-size: 4rem;
+    }
+
+    #p2 {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .f1,
+    .f2 {
+        width: 36%;
+    }
+
+    .fimg {
+        width: 25%;
+    }
+
+    .fimg img {
+        margin: 0rem;
+        width: 80%;
+    }
+
+    .f1-img,
+    .f2-img {
+        width: 10%;
+    }
+
+    .f1-text ul li {
+        float: left;
+        padding: 0rem;
+    }
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 5.6rem 0rem;
+    }
+
+    .f2-text ul li {
+        float: right;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .f2-text {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .r1 img,
+    .r2 img,
+    .r3 img {
+        width: 35%;
+    }
+
+    .mail img {
+        position: static;
+        margin-right: 1rem;
+    }
+
+    .call img {
+        float: right;
+        position: static;
+        margin-left: 1rem;
+    }
+
+    .mail p {
+        position: static;
+        display: flex;
+        justify-content: left;
+    }
+
+    .call p {
+        position: static;
+        display: flex;
+        justify-content: right;
+    }
+}

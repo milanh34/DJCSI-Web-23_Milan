@@ -1,0 +1,302 @@
+body {
+    background-color: #4018b2;
+    margin: 0px;
+}
+
+.left {
+    /* border: 2px solid yellow; */
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+.right {
+    /* border: 2px solid red; */
+    float: right;
+    width: 75%;
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    padding-top: 2rem;
+}
+
+#contact-us {
+    margin: 0rem;
+    font-size: 1.5rem;
+}
+
+.left img {
+    width: 60%;
+}
+
+.nav-bar li a {
+    /* border: 2px solid black; */
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-right: 2.25rem;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.nav-bar li a:hover {
+    color: rgb(184, 174, 174);
+}
+
+.nav-bar li {
+    display: inline-block;
+}
+
+#banner-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 27%;
+}
+
+.mid-text {
+    /* border: 2px solid pink; */
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    height: fit-content;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#p1 {
+    /* border: 2px solid black; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#p2 {
+    /* border: 2px solid black; */
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 80%;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.40rem;
+}
+
+.features {
+    /* border: 1px solid black; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    margin-left: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fcfbff;
+}
+
+#features-heading {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    font-size: 5rem;
+}
+
+.f1,
+.fimg,
+.f2 {
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 33%;
+}
+
+.fimg {
+    text-align: center;
+}
+
+.fimg img {
+    /* border: 1px solid violet; */
+    margin: 3rem;
+    width: 40%;
+}
+
+.f1-text,
+.f1-img,
+.f2-text,
+.f2-img {
+    /* border: 1px solid blue; */
+    display: inline-block;
+}
+
+.f1-text {
+    width: 85%;
+}
+
+.f1-img,
+.f2-img {
+    width: fit-content;
+}
+
+.f1-text ul li {
+    position: relative;
+    left: 17%;
+    width: 75%;
+    /* border: 1px solid violet; */
+    padding: 2rem 1rem;
+    text-align: right;
+}
+
+.features-text li b {
+    font-size: 1.5rem;
+}
+
+.f1-img ul li,
+.f2-img ul li {
+    /* border: 1px solid pink; */
+    width: fit-content;
+    padding: 3.4rem 1rem;
+}
+
+.f1-img ul,
+.f2-img ul {
+    padding: 0px;
+}
+
+.f2-text {
+    width: 85%;
+}
+
+.f2-text ul li {
+    position: relative;
+    right: 8%;
+    width: 75%;
+    /* border: 1px solid violet; */
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+.bottom {
+    /* border: 1px solid black; */
+    position: absolute;
+    width: 100%;
+    top: 200%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffffff;
+}
+
+
+.bottom h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.r1,
+.r2,
+.r3 {
+    /* border: 1px solid red; */
+    position: relative;
+    display: inline-block;
+    width: 32.5%;
+    text-align: center;
+}
+
+.fa-solid {
+    color: #f1ad48;
+}
+
+.r1 img , .r2 img , .r3 img {
+    /* border: 1px solid pink; */
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+.bottom b {
+    font-size: 2rem;
+}
+
+#prof1,
+#prof2,
+#prof3 {
+    font-size: 1.2rem;
+}
+
+.bottom i{
+    display: inline-block;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+
+#review1,
+#review2,
+#review3 {
+    /* border: 1px solid blue; */
+    text-align: left;
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+#conclude-h1 {
+    /* border: 1px solid white; */
+    padding: 10rem 2rem 2rem 2rem;
+}
+
+.conclude {
+    position: relative;
+    background-color: #4018b2;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.mail,
+.call {
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    width: 49.5%;
+}
+
+.conclude img {
+    /* border: 1px solid pink; */
+    width: fit-content;
+    margin: 0rem;
+}
+
+.mail img {
+    float: left;
+    margin-right: 1%;
+    position: relative;
+    left: 75%;
+}
+
+.call img {
+    float: left;
+    margin-right: 1%;
+    position: relative;
+    left: 15%;
+}
+
+.conclude p {
+    display: inline-block;
+    /* border: 1px solid violet; */
+    margin: 0px;
+}
+
+.mail p {
+    position: relative;
+    left: 75%;
+    font-size: 1.2rem;
+}
+
+.call p {
+    position: relative;
+    left: 15%;
+    font-size: 1.2rem;
+}
+
+.mail img:hover , .call img:hover{
+    width: 3.2%;
+    cursor: pointer;
+}
