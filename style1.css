@@ -7,27 +7,37 @@
         font-size: 1.95rem;
     }
 
+    .f2-text ul li {
+        margin-left: 0.5rem;
+    }
+
     .features-text li b {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .features-text li p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .f1-img ul li,
     .f2-img ul li {
-        padding: 5rem 1rem;
-    }
-
-    .bottom {
-        width: 100%;
+        padding: 4.2rem 0rem;
     }
 
 }
 
-
 @media screen and (min-width: 2880px) {
+    .f2-text ul li {
+        margin-left: 2rem;
+    }
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 3.6rem 0rem;
+    }
+}
+
+@media screen and (min-width: 3250px) {
     .nav-bar li a {
         font-size: 2.75rem;
     }
@@ -36,31 +46,34 @@
         font-size: 2.85rem;
     }
 
-    .f2-text ul li{
-        width: 85%; 
+    .f2-text ul li {
+        margin-left: 2rem;
     }
 
     .features-text li b {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
     }
 
     .features-text li p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .f1-img ul li,
     .f2-img ul li {
-        padding: 7rem 1rem;
+        padding: 5rem 0rem;
     }
-
-    .bottom {
-        width: 100%;
-    }
-
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1400px) {
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 4rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1210px) {
     .left {
         display: flex;
         justify-content: center;
@@ -84,10 +97,12 @@
     }
 
     #banner-img {
-        position: absolute;
+        position: relative;
         float: right;
-        bottom: 0px;
-        width: 60%;
+        display: flex;
+        align-items: flex-end;
+        bottom: 0rem;
+        width: 30rem;
     }
 
     .mid-text {
@@ -115,27 +130,21 @@
     }
 
     .fimg img {
-        margin: 0rem;
         width: 80%;
     }
 
-    .f1-img,
-    .f2-img {
-        width: 10%;
-    }
-
     .f1-text ul li {
-        float: left;
+        /* float: left; */
         padding: 0rem;
     }
 
     .f1-img ul li,
     .f2-img ul li {
-        padding: 5.6rem 0rem;
+        padding: 2rem 0rem;
     }
 
     .f2-text ul li {
-        float: right;
+        /* float: right; */
         padding: 0rem;
         margin: 0rem;
     }
@@ -172,5 +181,30 @@
         position: static;
         display: flex;
         justify-content: right;
+    }
+}
+
+
+@media screen and (max-width: 1040px) {
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 2.3rem 0rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 2.6rem 0rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .f1-img ul li,
+    .f2-img ul li {
+        padding: 3.6rem 0rem;
     }
 }
