@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 960px) {
     .left {
         display: flex;
         justify-content: center;
