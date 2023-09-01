@@ -1,4 +1,8 @@
-body {
+html{
+    scroll-behavour: smooth;
+}
+
+    body {
     background-color: #4018b2;
     margin: 0px;
 }
@@ -93,6 +97,7 @@ body {
     margin-left: 0px;
     font-family: 'Ubuntu', sans-serif;
     background-color: #fcfbff;
+    overflow: auto;
 }
 
 #features-heading {
